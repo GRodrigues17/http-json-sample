@@ -22,6 +22,7 @@ import java.net.URL;
 
 import javax.net.ssl.HttpsURLConnection;
 
+
 public class MainActivity extends AppCompatActivity {
 
     /**
@@ -44,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(policy);
 
-        String response = makeRequest("http://graph.facebook.com/k19treinamentos");
+        //String response = makeRequest("http://graph.facebook.com/------");
 
         try {
             JSONObject json = new JSONObject(response);
