@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HttpAndJson</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">HttpAndJson</string>
+    <string name="phone_label"> %1$s </string>
+    <string name="adress_label"> %1$s </string>
+    <string name="city_label"> %1$s </string>
+    <string name="likes_label"> Total de Likes: %1$d </string>
+</resources>
